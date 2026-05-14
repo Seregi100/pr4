@@ -1,7 +1,7 @@
 import sys
 sys.path.append('/home/runner/work/pr4/pr4/')
 import pytest
-import app
+from app import app
 @pytest.fixture
 def client():
 	with app.test_client() as client:
