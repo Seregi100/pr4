@@ -23,7 +23,8 @@ jobs:
           pip install -r requirements.txt
           pip install pytest
       - name: Run tests
-        run: pytest
+        working-directory: /home/runner/work/pr4/pr4
+        run: pytest tests/
 
   build:
     needs: test
