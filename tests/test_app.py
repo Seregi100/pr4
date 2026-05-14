@@ -1,5 +1,5 @@
 import sys
-sys.path.append('pr4/')
+sys.path.append('/home/runner/work/pr4/pr4/')
 import pytest
 import app
 @pytest.fixture
